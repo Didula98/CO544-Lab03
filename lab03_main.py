@@ -287,6 +287,8 @@ def predict_quality(n_clicks, fixed_acidity, volatile_acidity, citric_acid, resi
 if __name__ == '__main__':
     app.run_server(debug=False)
 
+server = app.server
+
 # %%
 # sample_data = [9.1, 0.4, 0.5, 1.8, 0.071, 7.0, 16.0, 0.9946, 3.21, 0.69, 12.5]])
 
